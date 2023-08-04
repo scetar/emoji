@@ -1,0 +1,95 @@
+.face{
+    height: 250px;
+    width:250px;
+    background-color: yellow;
+    border-radius:50%;
+    margin-top:10%;
+    margin-left: 30%;
+    position: relative;
+}
+body{
+    background-image: radial-gradient(pink,yellowgreen);
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+}
+
+.leye{
+    height: 50px;
+    width: 50px;
+    border-radius: 50%;
+    position:absolute;
+    background-color: black;
+    margin-left: 50px;
+    margin-top: 50px;
+}
+.reye{
+    height: 50px;
+    width: 50px;
+    border-radius: 50%;
+    position:absolute;
+    background-color: black;
+    margin-left: 160px;
+    margin-top: 50px;
+}
+.rpupil{
+    height: 20px;
+    width: 20px;
+    border-radius: 50%;
+    position:absolute;
+    background-color: white;
+    margin-left: 15px;
+    margin-top: 15px;
+    transition: width 2s height 2sc;
+}
+.rpupil:hover {
+    height:50px;
+    width:50px;
+}
+.lpupil{
+    height: 20px;
+    width: 20px;
+    border-radius: 50%;
+    position:absolute;
+    background-color: white;
+    margin-left: 15px;
+    margin-top: 15px;
+    transition: width 2s height 2sc;
+}
+.lpupil:hover {
+    height:50px;
+    width:50px;
+}
+
+.mou{
+    height: 50px;
+    width: 120px;
+    border-radius: 7px 7px 100px 100px;
+    position:absolute;
+    background-color: white;
+    margin-left: 60px;
+    margin-top: 150px;
+    transition: width 2s;
+}
+.ton{
+    height:30px;
+    width: 80px;
+    border-radius: 7px 7px 100px 100px;
+    position:absolute;
+    background-color: red;
+    margin-left: 25px;
+    margin-top: 10px;
+    transition: width 2s height 2sc;
+}
+.ton:hover{
+    height:200px;
+    width:100px;
+}
+.face{
+    -webkit-box-reflect: below;
+}
+h1{
+    color:voilet;
+    box-shadow: 10px;
+    text-align: center;
+    position: absolute;
+}
